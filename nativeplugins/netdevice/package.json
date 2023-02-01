@@ -1,0 +1,20 @@
+{
+	"name": "CameraSdk",
+	"id": "JCloudSoft-CameraSdk",
+	"version": "1.0",
+	"description": "宇视摄像头插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"plugins": [{
+				"type": "module",
+				"name": "JCloudSoft-CameraSdk",
+				"class": "com.jcloudsoft.cameradev.CameraDeviceModule"
+			}, {
+				"hooksClass": "com.jcloudsoft.cameradev.CameraDeviceProxy"
+			}],
+			"integrateType": "aar",
+			"minSdkVersion": 16
+		}
+	}
+}

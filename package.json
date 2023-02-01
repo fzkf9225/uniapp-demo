@@ -1,0 +1,34 @@
+{
+    "name": "com.jcloudsoft.uniappdemo",
+    "version": "1.0.0",
+    "description": "uniapp测试框架",
+    "main": "main.js",
+    "dependencies": {
+        "crypto-js": "^4.0.0",
+        "js-base64": "^2.5.1",
+        "jsencrypt": "^3.0.0-rc.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitee.com/fdasffff/uniapp-demo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "uni-app": {
+        "scripts": {
+            "mp-dingtalk": {
+                "title": "钉钉小程序",
+                "env": {
+                    "UNI_PLATFORM": "mp-alipay"
+                },
+                "define": {
+                    "MP-DINGTALK": true
+                }
+            }
+        }
+    }
+}
